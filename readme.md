@@ -16,14 +16,14 @@ The purpose of this repo is to document and practice everything learned during t
 
 By the end of the bootcamp, the goal is to have practiced:
 
-✅ Building complete web applications from scratch
-✅ Mastering the modern JavaScript ecosystem
-✅ Creating REST APIs with Node.js
-✅ Developing interfaces with React
-✅ Implementing SQL databases
-✅ Setting up CI/CD pipelines
-✅ Containerizing applications with Docker
-✅ Using TypeScript in real projects
+- Building complete web applications from scratch
+- Mastering the modern JavaScript ecosystem
+- Creating REST APIs with Node.js
+- Developing interfaces with React
+- Implementing SQL databases
+- Setting up CI/CD pipelines
+- Containerizing applications with Docker
+- Using TypeScript in real projects
 
 ---
 
