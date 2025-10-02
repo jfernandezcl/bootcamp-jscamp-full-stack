@@ -6,28 +6,28 @@
 
 ---
 
-Este repositorio contiene apuntes, ejercicios y materiales relacionados con el **Bootcamp intensivo de desarrollo web full-stack** de la academia de **Miguel Ángel Durán (midudev)**.
+This repository contains notes, exercises, and materials related to the **Intensive Full-Stack Web Development Bootcamp** from the academy of **Miguel Ángel Durán (midudev)**.
 
-El objetivo de este repo es documentar y practicar todo lo aprendido durante el bootcamp.
-
----
-
-## 🎯 Objetivos de Aprendizaje
-
-Al finalizar el bootcamp se busca haber practicado:
-
-✅ Construcción de aplicaciones web completas desde cero  
-✅ Dominio del ecosistema de JavaScript moderno  
-✅ Creación de APIs REST con Node.js  
-✅ Desarrollo de interfaces con React  
-✅ Implementación de bases de datos SQL  
-✅ Configuración de pipelines de CI/CD  
-✅ Containerización de aplicaciones con Docker  
-✅ Uso de TypeScript en proyectos reales
+The purpose of this repo is to document and practice everything learned during the bootcamp.
 
 ---
 
-## 📚 Contenido del Bootcamp
+## 🎯 Learning Objectives
+
+By the end of the bootcamp, the goal is to have practiced:
+
+✅ Building complete web applications from scratch
+✅ Mastering the modern JavaScript ecosystem
+✅ Creating REST APIs with Node.js
+✅ Developing interfaces with React
+✅ Implementing SQL databases
+✅ Setting up CI/CD pipelines
+✅ Containerizing applications with Docker
+✅ Using TypeScript in real projects
+
+---
+
+## 📚 Bootcamp Content
 
 - **00** – HTML & CSS
 - **01** – JavaScript
@@ -41,44 +41,41 @@ Al finalizar el bootcamp se busca haber practicado:
 
 ---
 
-## 🎨 Proyecto Práctico
+## 🎨 Practical Project
 
-Durante el bootcamp se construirá un **proyecto full-stack desde cero**, aplicando los conocimientos de cada módulo.  
-Este proyecto servirá como parte del **portafolio personal**.
+During the bootcamp, a **full-stack project will be built from scratch**, applying the knowledge from each module.  
+This project will serve as part of the **personal portfolio**.
 
-👉 [Ver diseño del proyecto](https://jscamp.dev)
+👉 [View Project Design](https://jscamp.dev)
 
 ---
 
-## 💻 Requisitos de Instalación
+## 💻 Installation Requirements
 
-- Navegador moderno (Chrome, Firefox, Edge o Safari)
-- [Visual Studio Code](https://code.visualstudio.com/) + extensión _Live Preview_
-- [Node.js](https://nodejs.org/) (v20 o superior)
+- Modern browser (Chrome, Firefox, Edge, or Safari)
+- [Visual Studio Code](https://code.visualstudio.com/) + extension _Live Preview_
+- [Node.js](https://nodejs.org/) (v20 or higher)
 - [Git](https://git-scm.com/)
 - [Docker](https://www.docker.com/)
-- [Warp](https://www.warp.dev/) (opcional, terminal con IA y agentes)
+- [Warp](https://www.warp.dev/) (optional, terminal with AI and agents)
 
 ---
 
-## 📺 Plataforma
+## 📺 Platform
 
-El contenido del bootcamp está disponible en **[JSCamp.dev](https://jscamp.dev)**.
+The bootcamp content is available at **[JSCamp.dev](https://jscamp.dev)**.
 
 ---
 
 ## 👨‍💻 Instructor
 
-El bootcamp es impartido por **Miguel Ángel Durán (midudev)**,  
-desarrollador y creador de contenido educativo en español.
-
-🌐 **Redes sociales de midudev**
+The bootcamp is taught by **Miguel Ángel Durán (midudev)**
 
 - 💼 LinkedIn: [midudev](https://www.linkedin.com/in/midudev)
 - 🌍 Web: [midu.dev](https://midu.dev)
 
 ---
 
-## 👨‍💻 Project
+## 👨‍💻 Practical Project
 
 <img src="./assets/image-project.jpg" alt="Task Tracker Preview" width="100%" />
