@@ -56,6 +56,25 @@ header {
   }
 }
 
+/* Header navigation to other pages */
+nav {
+  align-items: center;
+  gap: 1rem;
+  display: flex;
+
+  a {
+    text-decoration: none;
+    color: var(--text-secondary);
+    transition: color 0.2s;
+    font-weight: 500;
+
+    &:hover, &:focus {
+      color: var(--primary);
+      outline: none;
+    }
+  }
+}
+
 /* Header buttons */
 header div a {
   padding: 0.5rem 1rem;
