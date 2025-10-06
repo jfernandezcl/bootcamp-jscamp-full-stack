@@ -1,0 +1,41 @@
+.header__container__button {
+  display: flex;
+  justify-content: flex-end;
+   margin-left: 78rem;
+}
+
+.header__button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #0e2a44;
+  color: #1171dc;
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.header__button:hover {
+  background-color: var(--primary-hover);
+  outline-offset: 2px;
+}
+
+.header__button__profile {
+  margin-left: 12px;
+  margin-inline-end: 24px;
+  background-color: white;
+  color: #1171dc;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-weight: 700;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__button__profile:hover {
+  background-color: var(--primary-light);
+  color: white;
+}
