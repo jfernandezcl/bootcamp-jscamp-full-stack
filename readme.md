@@ -2,7 +2,7 @@
 
 ---
 
-<img src="./assets/image-jscamp.jpg" alt="Task Tracker Preview" width="100%" />
+<img src="./assets/image-jscamp.png" alt="Task Tracker Preview" width="100%" />
 
 ---
 
@@ -78,4 +78,4 @@ The bootcamp is taught by **Miguel Ángel Durán (midudev)**
 
 ## 👨‍💻 Practical Project
 
-<img src="./assets/image-project.jpg" alt="Task Tracker Preview" width="100%" />
+<img src="./assets/image-project.png" alt="Task Tracker Preview" width="100%" />
