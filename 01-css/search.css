@@ -1,7 +1,7 @@
-.header__container__button {
+.header__container-button {
   display: flex;
   justify-content: flex-end;
-   margin-left: 78rem;
+  margin-left: 78rem;
 }
 
 .header__button {
@@ -38,4 +38,92 @@
 .header__button__profile:hover {
   background-color: var(--primary-light);
   color: white;
+}
+
+/*container main*/
+.search__container-main {
+ max-width: 48rem; 
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem; 
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/*container section search*/
+.search__section-input {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.search__section-tittle {
+  margin-bottom: 8px;
+}
+
+.search__section-subtittle {
+  margin-bottom: 2rem;
+}
+
+/* FORM */
+.search__form {
+  max-width: 60rem;
+  width: 100%;
+  margin: 0 auto;
+  padding-inline: 1rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--input-bg);
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px var(--shadow);
+  padding: 0.5rem;
+  gap: 0.5rem;
+}
+
+.search__form input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text-primary);
+  padding: 0.75rem 0.5rem;
+  font-size: 1rem;
+  font-family: inherit;
+  min-width: 0;
+}
+
+.search__form input::placeholder {
+  color: #64748b;
+}
+
+.search__form button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--primary);
+  color: white;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-family: inherit;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.search__form button:hover,
+.search__form button:focus {
+  background-color: var(--primary-hover);
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+/*container section result*/
+.search__container-result {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+  
 }
