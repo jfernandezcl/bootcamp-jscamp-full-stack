@@ -153,11 +153,51 @@
 }
 
 
-/*container section result*/
+
 .search__container-result {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-top: 3rem;
   
+}
+
+
+.jobs-listings {
+  border: 1px solid rgba(255, 255, 255, .3);
+  border-radius: 1rem;
+
+  article {
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    margin: 0;
+
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+
+    small {
+      font-size: .875rem;
+      opacity: .75;
+    }
+
+    p {
+      margin-top: 0.5rem
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.button-apply-job {
+  background: #09f;
+
+  &.is-applied {
+    background: #4caf50;
+    pointer-events: none;
+  }
 }
