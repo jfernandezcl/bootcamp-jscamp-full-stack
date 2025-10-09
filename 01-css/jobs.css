@@ -5,7 +5,7 @@
 }
 
 .header__button {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
   border-radius: 0.5rem;
   background-color: #0e2a44;
   color: #1171dc;
@@ -154,7 +154,7 @@
 
 
 
-/* 🔹 CONTENEDOR DE RESULTADOS */
+/* 🔹 RESULTS CONTAINER */
 .search__container-result {
   display: flex;
   flex-direction: column;
@@ -164,7 +164,7 @@
   width: 100%;
 }
 
-/* 🔹 LISTA DE JOBS */
+/* 🔹 LIST OF JOBS */
 .jobs-listings {
   display: flex;
   flex-direction: column;
@@ -174,7 +174,7 @@
   margin: 0 auto;
 }
 
-/* 🔹 TARJETA DE CADA JOB */
+/* 🔹 CARD FOR EACH JOB */
 .job-listing-card {
   display: flex;
   justify-content: space-between;
@@ -193,7 +193,7 @@
   box-shadow: 0 6px 14px -3px var(--shadow);
 }
 
-/* 🔹 TEXTO DEL JOB */
+/* 🔹 JOB TEXT */
 .job-listing-card h3 {
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
@@ -212,7 +212,7 @@
   color: var(--text-secondary);
 }
 
-/* 🔹 BOTÓN "APLICAR" */
+/* 🔹 ‘APPLY’ BUTTON */
 .button-apply-job {
   background-color: var(--primary);
   color: white;
@@ -237,7 +237,7 @@
   transform: none;
 }
 
-/* 🔹 TÍTULO PRINCIPAL */
+/* 🔹 MAIN TITLE */
 .search__container-result > div h3 {
   font-size: 1.5rem;
   font-weight: 700;
