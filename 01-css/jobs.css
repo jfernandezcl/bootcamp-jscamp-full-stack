@@ -5,11 +5,11 @@
 }
 
 .header__button {
-  padding: 0.5rem 0.5rem;
+  padding: 0.4rem 0.4rem;
   border-radius: 0.5rem;
   background-color: #0e2a44;
   color: #1171dc;
-  display: inline-block;
+  display: flex;
   font-size: 0.875rem;
   font-weight: 700;
   text-decoration: none;
