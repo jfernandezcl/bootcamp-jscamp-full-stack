@@ -6,7 +6,44 @@
     <link rel="stylesheet" href="../01-css/styles.css" />
     <link rel="stylesheet" href="../01-css/jobs.css" />
     <link rel="stylesheet" href="../01-css/home.css" />
+    <link rel="stylesheet" href="../01-css/details.css" />
     <title>DevJobs - Detalles ofertas</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <h1 class="header__title">DevJobs</h1>
+
+      <nav class="header__nav">
+        <a href="">Inicio</a>
+        <a href="">Empleos</a>
+        <a href="">Empresas</a>
+        <a href="">Salarios</a>
+      </nav>
+
+      <div class="details__container-search">
+        <form class="details__search-form" role="search">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+            <path d="M21 21l-6 -6" />
+          </svg>
+
+          <input required type="text" placeholder="Buscar" />
+
+          <button type="submit">Buscar</button>
+        </form>
+        <a class="header__button__profile" href="">P</a>
+      </div>
+    </header>
+  </body>
 </html>
