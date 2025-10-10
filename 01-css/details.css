@@ -52,3 +52,93 @@
   outline: 2px solid white;
   outline-offset: 2px;
 }
+
+.detailes__tittle-jobs {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 0.875rem;
+  color: #94a3b8;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.result__container-main {
+   max-width: 48rem; 
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem; 
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/*Container jobs*/
+/* 🔹 CARD FOR EACH JOB */
+/* 🔹 CARD FOR EACH JOB (DETAIL PAGE) */
+.job-details__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  background-color: var(--input-bg);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.75rem;
+  padding: 4rem;
+  box-shadow: 0 4px 10px -3px var(--shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.job-details__card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px -3px var(--shadow);
+}
+
+/* 🔹 JOB TEXT */
+.job-details__card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.8rem;
+  color: var(--text-primary);
+}
+
+.job-details__card small {
+  display: block;
+  font-size: 0.875rem;
+  color: #94a3b8;
+  margin-bottom: 0.8rem;
+}
+
+.job-details__card p {
+  line-height: 1.5;
+  color: var(--text-secondary);
+  margin-bottom: 0.8rem;
+}
+
+.job-details__card ul {
+  margin-bottom: 0.8rem;
+}
+
+/* 🔹 ‘APPLY’ BUTTON */
+.job-details__button-apply {
+  background-color: var(--primary);
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  align-self: flex-start;
+}
+
+.job-details__button-apply:hover {
+  background-color: var(--primary-hover);
+  transform: scale(1.05);
+}
+
+.job-details__button-apply.is-applied {
+  background-color: #4caf50;
+  cursor: not-allowed;
+  transform: none;
+}
