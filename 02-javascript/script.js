@@ -46,3 +46,8 @@ filter.addEventListener("change", function () {
     mensaje.textContent = "";
   }
 });
+
+const searchInput = document.querySelector("#empleos-search-input");
+searchInput.addEventListener("input", function () {
+  console.log(searchInput.value);
+});
