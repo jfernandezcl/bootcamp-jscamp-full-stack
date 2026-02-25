@@ -29,15 +29,16 @@ By the end of the bootcamp, the goal is to have practiced:
 
 ## 📚 Bootcamp Content
 
-- **00** – HTML & CSS
-- **01** – JavaScript
-- **02** – React
-- **03** – Estado Global y React Router
-- **04** – Node.js
-- **05** – TypeScript
-- **06** – SQL
-- **07** – CI/CD
-- **08** – Docker
+- **00** - HTML & CSS
+- **01** - JavaScript
+- **02** - React
+- **03** - Estado Global y React Router
+- **04** - Node.js
+- **05** - TypeScript
+- **06** - Integración de IA
+- **07** - SQL
+- **08** - CI/CD
+- **09** - Docker
 
 ---
 
